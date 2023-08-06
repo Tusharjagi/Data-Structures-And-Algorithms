@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
+    public static void printJava() {
+        System.out.println("Hello java");
+    }
     public static void main(String[] args) {
 
 //        Operators +, - , *, /, %
@@ -26,17 +29,20 @@ public class Main {
 //        && AND
 //        || OR
 //        ! NOT
-        Scanner sc = new Scanner(System.in);
-        int cash = sc.nextInt();
-        if (cash < 10 ) {
-            System.out.println("cannot but anything");
-            System.out.println("Get more cash");
-        }
-        else if (cash > 10 && cash < 50) {
-            System.out.println("can get 1 thing");
-        }
-        else {
-            System.out.println("can get both");
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int cash = sc.nextInt();
+//        if (cash < 10 ) {
+//            System.out.println("cannot but anything");
+//            System.out.println("Get more cash");
+//        }
+//        else if (cash > 10 && cash < 50) {
+//            System.out.println("can get 1 thing");
+//        }
+//        else {
+//            System.out.println("can get both");
+//        }
+        printJava();
+        printJava();
+        printJava();
     }
 }
