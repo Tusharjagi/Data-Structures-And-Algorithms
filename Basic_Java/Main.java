@@ -1,14 +1,42 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
-//        Constant;
-        int age = 30;
-        age = 31;
-        age = 32;
-
-        final float PI = 3.14F;
 
 //        Operators +, - , *, /, %
+//        Math class
+//        Random
+//        System.out.println((int)(Math.random()*100));
+//        INPUT
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Input Name: ");
+//        String name = sc.nextLine();
+//        System.out.println(name);
 
+
+//        Comparison Operators
+//        a == b
+//        a != b
+//        a > b
+//        a < b
+//        a <= b
+//        a => b
+
+//        Logical Operators
+//        && AND
+//        || OR
+//        ! NOT
+        Scanner sc = new Scanner(System.in);
+        int cash = sc.nextInt();
+        if (cash < 10 ) {
+            System.out.println("cannot but anything");
+            System.out.println("Get more cash");
+        }
+        else if (cash > 10 && cash < 50) {
+            System.out.println("can get 1 thing");
+        }
+        else {
+            System.out.println("can get both");
+        }
     }
 }
