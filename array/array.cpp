@@ -6,7 +6,9 @@ int main () {
   int length = sizeof(arr) / sizeof(arr[0]);
   // sizeof give us size in byte
 
+  // create +1 length of array
   // int newLength = length + 1;
+
   // creating a array size less by 1 
   int newLength = length - 1;
   int* newArr = new int[newLength]; 
