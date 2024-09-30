@@ -1,0 +1,75 @@
+JavaScript
+
+# data Types :- 
+
+Primitive Data Types
+
+In primitive data type basically we store a value.
+Those are immutable and those value cannot be changed.
+
+1. String
+2. Number
+3. boolean
+4. BigInt 
+4. undefined
+5. null
+6. Symbol
+
+Non - primitive Data Types
+
+these are store the reference to the value.
+these are mutable.
+
+1. Object 
+2. Array 
+3. functions
+
+# Hoisting :- 
+  hoisting is default behaviour of JavaScript where all the variables and function declaration are moved on the top.
+
+# Difference between == and === operators
+  both are comparison operators but == is used for loose comparison, === is used of strict checking or we can say that in === is also checked the data type.
+
+# Implicit Type Coercion in JavaScript
+
+# JavaScript is dynamic type language
+
+# Shallow copy & Deep copy
+  In browser we have a structuredClone() property we can use that
+  In Node js env. we can use cloneDeep from loadlash it's more effective way;
+  Or we use the JSON.parse(JSON.Stringify(Object))
+
+# Immediately invoked function (IIFE) :-
+  this function are invoked Immediately executed as soon as it is created. we do not have to call it later
+  (function () {
+
+  })(); 
+
+# Higher Order function 
+  Higher order function are those function which take a argument as a function or returning as a function
+
+# this keyword
+  The “this” keyword refers to the object that the function is a property of.
+
+# Explain call(), Apply and bind() methods
+
+# exec() and test() both are using when we test the regular Expressions.
+  exec() returns the null or original string while test return the boolean
+
+# Currying :- in Currying functions we do not take a argument on upfront but instead a returning a function that take a another argument until all the arguments a provided.
+
+# closure :- closure are an ability of a function to remember of the variable and function that declared in its outer scope. 
+
+# object prototypes :- 
+  prototype is a blueprint of an object. the prototype allow us to use properties and methods on the current object. if property and methods do not found the current object the JavaScript engine check the prototype use those properties.
+
+  example :- arr.push(); arr.map();
+
+# callback :- 
+  Callback functions are functions that are passed as arguments to another function and are executed after some operation has been completed. They are a fundamental concept in JavaScript, especially in asynchronous programming, event handling, and higher-order functions.
+
+# Promises :- 
+
+
+
+# generator function 
