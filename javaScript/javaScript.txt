@@ -73,3 +73,51 @@ these are mutable.
 
 
 # generator function 
+
+interview questions
+
+html -> doc type, meta tag, semantic tag, 
+        diff b/w semantic and non semantic tags,
+        link tag deffer tag, 
+        attributes in tags,
+        block elements and inline elements
+
+css -> box model, Pseudo-elements and Pseudo-classes,
+       diff b/w grid model and flex model,
+       visibility hidden - display none,
+       style Specificity
+       css positions
+
+JavaScript -> let, var, const 
+              closure
+              hoisting
+              Higher order function
+              event loop
+              call stack 
+              this keyword 
+              arrow function
+              synchronous and asynchronous/ blocking / non-blocking
+              Promises 
+              classes
+              call, bind, apply 
+              prototypes
+              polly fills
+              Currying functions
+              Immediately invoking function (IIFE)
+              function Expressions and declaration
+              deep and shallow
+              callbacks
+              arrow function
+              prototype designing 
+              rest and spread
+              classes
+              generator functions
+              weak map 
+              weak set
+              object destructing
+              temporal dead zone
+
+react ->      Hooks, virtual dom
+              DOM, BOM
+
+node package manager
